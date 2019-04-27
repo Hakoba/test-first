@@ -87,7 +87,8 @@
     }),
     methods: {
       returnSum(){
-       alert((parseFloat(this.firstAddend)+parseFloat(this.secondAddend)).toFixed(1));
+        confirm(`Ответ: ${(parseFloat(this.firstAddend)+parseFloat(this.secondAddend)).toFixed(2)}`);
+      //  alert((parseFloat(this.firstAddend)+parseFloat(this.secondAddend)).toFixed(10));
       }
     }
   }
